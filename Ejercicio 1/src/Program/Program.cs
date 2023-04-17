@@ -13,16 +13,16 @@ namespace SRP
             //book2.ShelveBook("B","3");
 
             ShelveBook Estanteria = new ShelveBook("A", "7");
-            Estanteria.AddBook(Book1); // Creo que me da error, porque no me deja crear la Lista de libros
+            Estanteria.AddBook(Book1); // Creo que me da error, porque no me deja crear la Lista para la Estanteria
             
             ShelveBook Estanteria2 = new ShelveBook("B", "3");
-            Estanteria.AddBook(book2); // Creo que me da error, porque no me deja crear la Lista de libros
+            Estanteria.AddBook(book2); // Creo que me da error, porque no me deja crear la Lista para la Estanteria
             
             Sector sector = new Sector();
-            sector.AddShelve(Estanteria); // Tampoco me deja crear la Lista        
+            sector.AddShelve(Estanteria); // Tampoco me deja crear la Lista para el sector      
 
             Sector sector2 = new Sector();
-            sector2.AddShelve(Estanteria2); // Tampoco me deja crear la Lista        
+            sector2.AddShelve(Estanteria2); // Tampoco me deja crear la Lista para el Sector       
         
         }
     }

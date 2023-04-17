@@ -8,7 +8,7 @@ namespace SRP
             
         public void AddShelve(Book shelves) // Agrego los estantes a la lista "Sector"
         {
-            this.Sector.Add(shelves);
+            Sector.Add(shelves);
         }
     }
 }
