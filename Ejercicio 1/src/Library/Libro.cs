@@ -28,7 +28,7 @@ namespace SRP
     }
 
 
-    /* El codigo en verde, esta en el archivo y clase equivocado, ya que este archivo no cumple con el principio
+    /* El codigo comentado, esta en el archivo y clase equivocado, ya que este archivo no cumple con el principio
     SRP por contener información del libro y, a su vez, informacion de las estanterias. */
 
 
