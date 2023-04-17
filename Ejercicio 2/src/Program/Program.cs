@@ -18,7 +18,7 @@ namespace Program
 
         
 
-            Pacient Persona = new Pacient("Steven Jhonson", "986782342", 25, "5555-555-555");
+            Pacient Persona = new Pacient("Steven Jhonson", "986782342", 24, "5555-555-555");
             
             Doctor ElDoc = new Doctor("Armand", "Oculista");
           

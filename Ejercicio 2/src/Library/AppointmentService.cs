@@ -56,7 +56,7 @@ namespace Library
 
 
         Pacient Person;
-        string Appointment;
+        string Appointment; 
         Doctor TheDoctor;
         public AppointmentService(Pacient Persona, DateTime date, string appoinmentPlace, Doctor ElDcotor)
         {

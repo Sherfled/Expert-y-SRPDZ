@@ -20,7 +20,7 @@ namespace Library
 
         public string AddPacient()
         {
-            if ((string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(IdNumber)) || ((18 < Age) || string.IsNullOrEmpty(PhoneNumber))) // No se por que me da "false" en (Age > 18)
+            if ((string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(IdNumber)) || ((18 > Age) || string.IsNullOrEmpty(PhoneNumber))) 
             {
                 return "Falta algun dato.";
             } 
